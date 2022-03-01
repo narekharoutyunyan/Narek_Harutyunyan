@@ -1,0 +1,10 @@
+In bash scripting, an arithmetic expansion can
+ also be performed using backticks and expr 
+(known as all-purpose expression evaluator). The 
+`expr` is similar to 'let,' but it does not save 
+the result to a variable. It directly prints the 
+result. Unlike let, we don't need to enclose the
+ expression within the quotes. We are required to 
+use spaces between the items of the expression. 
+It is important to note that we should use 'expr` 
+within command substitution to save the output to a variable.
