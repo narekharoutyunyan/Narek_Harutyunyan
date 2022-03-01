@@ -1,2 +1,2 @@
-git/*.txt
-git/test/*.txt
+/git/*.txt
+/git/test/*.txt
